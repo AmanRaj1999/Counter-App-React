@@ -1,19 +1,5 @@
-// import "./App.css";
-import React, { useState } from "react";
-
-function Counter() {
-  let [count, setCount] = useState(0);
-
-  function oneUp() {
-    setCount(count + 1);
-  }
-
-  return (
-    <div>
-      <button onClick={oneUp}>Count : {count}</button>
-    </div>
-  );
-}
+import React from "react";
+import Counter from "./Counter";
 
 function App() {
   return <Counter />;
